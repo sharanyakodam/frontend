@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { AppProvider, useAppContext } from './context/AppContext';
-import OnboardingWizard from './pages/onboarding/OnboardingWizard';
+import OnboardingWizard from './pages/Onboarding/OnboardingWizard';
 import Dashboard from './pages/Dashboard/Dashboard';
 import Welcome from './pages/Welcome';
 import './App.css';
